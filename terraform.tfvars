@@ -32,17 +32,6 @@ subnets = [
           name = "test-sn-02-01"
       }
     ]
-    private_ip_google_access = false
-  },
-  {
-      name = "atlys-sn-03"
-      primary_cidr_range = "10.0.6.0/24"
-      region = "asia-south1"
-      secondary_cidr_ranges = [ {
-          cidr = "10.0.7.0/24"
-          name = "test-sn-02-01"
-      }
-    ]
     private_ip_google_access = true
   }
 ]
